@@ -1,24 +1,6 @@
 {
     "name": "example-cv",
     "build": {"dockerfile": "Containerfile"},
-    "runArgs": ["--user=vscode"],
-    "features": {
-      "ghcr.io/devcontainers/features/common-utils:2": {
-          "installZsh": "true",
-          "username": "vscode",
-          "userUid": "1000",
-          "userGid": "1000",
-          "upgradePackages": "true"
-      },
-      "ghcr.io/devcontainers/features/git:1": {
-          "version": "latest",
-          "ppa": "false"
-      },
-      "ghcr.io/devcontainers/features/nvidia-cuda:1": {
-        "installCudnn": true
-      },
-      "ghcr.io/iterative/features/nvtop:1": {}
-    },
     "customizations": {
       "vscode": {
         "extensions": [
@@ -28,6 +10,5 @@
         ]
       }
     },
-    "remoteUser": "vscode",
     "postCreateCommand": "pip install -r requirements.txt"
 }
