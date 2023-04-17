@@ -1,17 +1,33 @@
 {
     "name": "example-cv",
-    "image": "mcr.microsoft.com/devcontainers/python:3.10",
-    "runArgs": ["--ipc=host"],
+    "build": {"dockerfile": "Containerfile"},
+    "runArgs": ["--user=vscode"],
     "features": {
+      "ghcr.io/devcontainers/features/common-utils:2": {
+          "installZsh": "true",
+          "username": "vscode",
+          "userUid": "1000",
+          "userGid": "1000",
+          "upgradePackages": "true"
+      },
+      "ghcr.io/devcontainers/features/git:1": {
+          "version": "latest",
+          "ppa": "false"
+      },
       "ghcr.io/devcontainers/features/nvidia-cuda:1": {
         "installCudnn": true
       },
       "ghcr.io/iterative/features/nvtop:1": {}
     },
-    "extensions": [
-      "Iterative.dvc",
-      "ms-python.python",
-      "redhat.vscode-yaml"
-    ],
-    "postCreateCommand": "pip install --user -r requirements.txt"
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "Iterative.dvc",
+          "ms-python.python",
+          "redhat.vscode-yaml"
+        ]
+      }
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": "pip install -r requirements.txt"
 }

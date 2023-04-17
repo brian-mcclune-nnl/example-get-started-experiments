@@ -1,0 +1,24 @@
+# FROM mcr.microsoft.com/devcontainers/python:3.10
+FROM docker.io/nvidia/cuda:12.0.1-base-ubuntu22.04
+
+# See buildpack-deps jammy curl
+RUN apt update && apt upgrade -y
+RUN apt install -y --no-install-recommends \
+  ca-certificates \
+  curl \
+  netbase \
+  wget \
+  tzdata \
+  gnupg \
+  dirmngr \
+  python3.10 \
+  python3.10-venv
+RUN rm -rf /var/lib/apt/lists/*
+
+RUN groupadd --gid 1000 vscode
+RUN useradd --create-home --shell /bin/bash --uid 1000 --gid 1000 vscode
+USER vscode
+WORKDIR /home/vscode
+
+RUN python3.10 -m venv venv
+ENV PATH="/home/vscode/venv/bin:${PATH}"
