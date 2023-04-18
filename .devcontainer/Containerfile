@@ -8,11 +8,11 @@ RUN apt install -y --no-install-recommends \
   curl \
   netbase \
   wget \
-  tzdata \
   gnupg \
   dirmngr \
   python3.10 \
-  python3.10-venv
+  python3.10-venv \
+  git
 RUN rm -rf /var/lib/apt/lists/*
 
 RUN groupadd --gid 1000 vscode
@@ -22,3 +22,11 @@ WORKDIR /home/vscode
 
 RUN python3.10 -m venv venv
 ENV PATH="/home/vscode/venv/bin:${PATH}"
+
+# Preinstall dependencies
+RUN pip install \
+  "dvc[s3]>=2.52.0" \
+  "dvclive>=2.6.0" \
+  fastai \
+  python-box \
+  "torch<2.0"

@@ -9,6 +9,5 @@
           "redhat.vscode-yaml"
         ]
       }
-    },
-    "postCreateCommand": "pip install -r requirements.txt"
+    }
 }
