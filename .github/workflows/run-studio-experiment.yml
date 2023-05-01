@@ -7,10 +7,10 @@ on:
       - "src/**"
       - "params.yaml"
       - "dvc.*"
-permissions:
-  contents: write
-  id-token: write
-  pull-requests: write
+permissions: write-all
+  # contents: write
+  # id-token: write
+  # pull-requests: write
 jobs:
   deploy-runner:
     if: github.actor == 'iterative-studio[bot]'
