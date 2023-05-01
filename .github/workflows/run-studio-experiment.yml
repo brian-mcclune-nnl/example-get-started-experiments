@@ -26,10 +26,8 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           role-duration-seconds: 3600
       - name: Create Runner
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-        # env:
-        #   REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cml runner launch --single \
             --labels=cml \
