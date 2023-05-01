@@ -33,7 +33,6 @@ jobs:
             --labels=cml \
             --cloud=aws \
             --cloud-region=us-east \
-            --cloud-hdd-size=40 \
             --cloud-type=ec2
   runner-job:
     needs: deploy-runner
