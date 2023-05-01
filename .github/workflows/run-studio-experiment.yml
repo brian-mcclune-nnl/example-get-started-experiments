@@ -54,13 +54,13 @@ jobs:
           REPO_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           STUDIO_TOKEN: ${{ secrets.DVC_STUDIO_TOKEN }}
           STUDIO_REPO_URL: ${{ secrets.DVC_STUDIO_REPO_URL }}
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
           DVCLIVE_LOGLEVEL: DEBUG
         run: |
           pip install -r requirements.txt
           dvc pull
           cml ci --fetch-depth 0
           cml comment create --publish --watch results/train/report.md & dvc exp run
-          dvc remote add --local push_remote s3://dvc-public/remote/get-started-pools
-          dvc push -r push_remote
+          dvc push -r v-clunacy
           cml pr --squash --skip-ci .
           cml comment create --pr --publish results/evaluate/report.md
