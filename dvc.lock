@@ -4,9 +4,373 @@ stages:
     cmd: python src/data_split.py
     deps:
     - path: data/pool_data
-      md5: 14d187e749ee5614e105741c719fa185.dir
-      size: 18999874
-      nfiles: 183
+      files:
+      - relpath: .DS_Store
+        md5: 0666643e7e8378f799bfde2032bfb1f2
+      - relpath: images/REGION_1-24_0_1024_0_1024.jpg
+        md5: dfeb4c398dd0a81afa3354183e39ba61
+      - relpath: images/REGION_1-24_0_1024_1024_2048.jpg
+        md5: 371093d962f861498013dec0f9c14187
+      - relpath: images/REGION_1-24_0_1024_2048_3072.jpg
+        md5: eacfdb72cf95980723d1640fe127b41b
+      - relpath: images/REGION_1-24_0_1024_2816_3840.jpg
+        md5: 3cde88bc92ce89a161dadaf75ad5fd69
+      - relpath: images/REGION_1-24_1024_2048_0_1024.jpg
+        md5: 894b81d3e754fecb61d09ef49a0b571e
+      - relpath: images/REGION_1-24_1024_2048_1024_2048.jpg
+        md5: adedc5d466e5556fcb64218ba4be57db
+      - relpath: images/REGION_1-24_1024_2048_2048_3072.jpg
+        md5: 8df2f8b472a07dc0e21bf6cc2528b0f1
+      - relpath: images/REGION_1-24_1024_2048_2816_3840.jpg
+        md5: 2f3cbdb91fea695465a46d46cc7a5b0c
+      - relpath: images/REGION_1-24_1136_2160_0_1024.jpg
+        md5: 88a48bd85baa0c33fd20204a09ada713
+      - relpath: images/REGION_1-24_1136_2160_1024_2048.jpg
+        md5: d1cb32d65bd8291445a14c3adb395273
+      - relpath: images/REGION_1-24_1136_2160_2048_3072.jpg
+        md5: 2054ee6a97e6a84eebe37cd4d414b21b
+      - relpath: images/REGION_1-24_1136_2160_2816_3840.jpg
+        md5: 2496e73d1169194c62de736ee12e1d95
+      - relpath: images/REGION_2-19_0_1024_0_1024.jpg
+        md5: 30073c07d42e2f649da49f5e071fff34
+      - relpath: images/REGION_2-19_1024_2048_0_1024.jpg
+        md5: e846b520cdf27bbf910c83816b3b40fb
+      - relpath: images/REGION_2-19_1136_2160_0_1024.jpg
+        md5: 80c5e075adb8fc3bd6c86472499eece9
+      - relpath: images/REGION_2-4_0_1024_2816_3840.jpg
+        md5: d5ed588650d01c8a751b5c6f8b6b933f
+      - relpath: images/REGION_2-4_1024_2048_1024_2048.jpg
+        md5: 9a48b103fc1800f3ec15aa279082d533
+      - relpath: images/REGION_2-4_1024_2048_2048_3072.jpg
+        md5: 42fb3bbe6f5f822d1e9b7955a955ccc0
+      - relpath: images/REGION_2-4_1024_2048_2816_3840.jpg
+        md5: d2da96edca8cd2655df6b13808ca03cb
+      - relpath: images/REGION_2-4_1136_2160_1024_2048.jpg
+        md5: 66db382f347524b17ba39c34b050eb2b
+      - relpath: images/REGION_2-4_1136_2160_2048_3072.jpg
+        md5: 41c079da7868f7615643a2fac3e6d5f8
+      - relpath: images/REGION_2-4_1136_2160_2816_3840.jpg
+        md5: c8689beb48ec8a5280f7b688b3de490e
+      - relpath: images/REGION_3-25_0_1024_0_1024.jpg
+        md5: 757d114c0bbe0c6ce7a66bd2594c67b1
+      - relpath: images/REGION_3-25_0_1024_1024_2048.jpg
+        md5: 3aa2bfd3989a44c8949dbbeb8b050311
+      - relpath: images/REGION_3-25_0_1024_2048_3072.jpg
+        md5: c8d326176d79785df92749f90a97dd1a
+      - relpath: images/REGION_3-25_0_1024_2816_3840.jpg
+        md5: 6b34a51c37cdff8db262fc5afe85fed1
+      - relpath: images/REGION_3-25_1024_2048_0_1024.jpg
+        md5: 6b3bc4bddc7d11d1b6f5ef39505ded76
+      - relpath: images/REGION_3-25_1024_2048_1024_2048.jpg
+        md5: 6f9c052e8ab738982b94a2efbfe25813
+      - relpath: images/REGION_3-25_1136_2160_0_1024.jpg
+        md5: d77a97cab48ee7d62fc872feb728aca5
+      - relpath: images/REGION_3-25_1136_2160_1024_2048.jpg
+        md5: 483acc5991087fe02ebe066665b951a4
+      - relpath: images/REGION_3-8_0_1024_2048_3072.jpg
+        md5: 9d9c362b001e5535ae7d7c6da512e11f
+      - relpath: images/REGION_3-8_0_1024_2816_3840.jpg
+        md5: 317348eb15cde8c4463294340f7208f3
+      - relpath: images/REGION_3-8_1024_2048_0_1024.jpg
+        md5: 81760788d4db01859319af1ff84fd2fc
+      - relpath: images/REGION_3-8_1024_2048_1024_2048.jpg
+        md5: 20395b929e1e2172f8333498b53e3f86
+      - relpath: images/REGION_3-8_1024_2048_2048_3072.jpg
+        md5: e6db9147653afbf747d24958ce52050b
+      - relpath: images/REGION_3-8_1024_2048_2816_3840.jpg
+        md5: b1caa70ee2601c0aadc548c4cfd91359
+      - relpath: images/REGION_3-8_1136_2160_0_1024.jpg
+        md5: 572b91d817fb6d434a7d4f86fae4adef
+      - relpath: images/REGION_3-8_1136_2160_1024_2048.jpg
+        md5: 54b3bb4564aba195616ba965df498233
+      - relpath: images/REGION_3-8_1136_2160_2048_3072.jpg
+        md5: 352cce795ff75486dd7314b362f8c161
+      - relpath: images/REGION_3-8_1136_2160_2816_3840.jpg
+        md5: b66667cd6b7bd2e2be70200838002a58
+      - relpath: images/REGION_4-12_0_1024_1024_2048.jpg
+        md5: e1e869f6ab8c8c9a193e493c2c4fa82a
+      - relpath: images/REGION_4-12_0_1024_2048_3072.jpg
+        md5: d5e2ce658cf28ecd7b7b56c05574b034
+      - relpath: images/REGION_4-12_0_1024_2816_3840.jpg
+        md5: ec9955890a004f06e607d0c89e810ff1
+      - relpath: images/REGION_4-12_1024_2048_0_1024.jpg
+        md5: 8c723910290a5c47eaa42e3023fe8e76
+      - relpath: images/REGION_4-12_1024_2048_1024_2048.jpg
+        md5: f5908a074f192941684c7268cf4f44c9
+      - relpath: images/REGION_4-12_1024_2048_2048_3072.jpg
+        md5: 8c4b5126cfeba41c4da289fac1e1ae63
+      - relpath: images/REGION_4-12_1024_2048_2816_3840.jpg
+        md5: ebd6e0520f64758bdd5df80ddb371fc6
+      - relpath: images/REGION_4-12_1136_2160_0_1024.jpg
+        md5: 62707db1fef2768922c6016773f62324
+      - relpath: images/REGION_4-12_1136_2160_1024_2048.jpg
+        md5: 1cb40143a7c246213f914970cf29c1fd
+      - relpath: images/REGION_4-12_1136_2160_2048_3072.jpg
+        md5: 77242375a040852884e405c711504a38
+      - relpath: images/REGION_4-12_1136_2160_2816_3840.jpg
+        md5: 2c5210c8f4210f102a2d8b1ab9b10377
+      - relpath: images/REGION_4-22_0_1024_0_1024.jpg
+        md5: af0d1ce02bd320673a8b120237f2e302
+      - relpath: images/REGION_4-22_0_1024_1024_2048.jpg
+        md5: 7a7f5adb55e071ac77b78a99f7ace606
+      - relpath: images/REGION_4-22_1024_2048_0_1024.jpg
+        md5: 0d83ae3f8c775a78d1dddcd810921cfb
+      - relpath: images/REGION_4-22_1024_2048_1024_2048.jpg
+        md5: c8b9ef3c1af5ce6065517313d88de575
+      - relpath: images/REGION_4-22_1024_2048_2048_3072.jpg
+        md5: adab3da1ec57f5629ebb8b827ffdadca
+      - relpath: images/REGION_4-22_1024_2048_2816_3840.jpg
+        md5: d447966acd4f41cf535cd834ed11af3b
+      - relpath: images/REGION_4-22_1136_2160_1024_2048.jpg
+        md5: ef26caf084e914462ed21d507542aff8
+      - relpath: images/REGION_4-22_1136_2160_2048_3072.jpg
+        md5: 923e60b913002aea2f296f7e7f0c480b
+      - relpath: images/REGION_4-22_1136_2160_2816_3840.jpg
+        md5: 74bc087a380f07cf9d9bfbf71753bb85
+      - relpath: images/REGION_5-15_0_1024_1024_2048.jpg
+        md5: 8d95f9cbebf4f62390810b67e9d61d43
+      - relpath: images/REGION_5-15_1024_2048_0_1024.jpg
+        md5: fad7655847b2f99c1e250e2140daa175
+      - relpath: images/REGION_5-15_1136_2160_0_1024.jpg
+        md5: be1ec6972bcb9fb6c30fe4f72517778b
+      - relpath: images/REGION_5-21_0_1024_2048_3072.jpg
+        md5: e0fe75b1b16bce8a40eb0a94562b9b13
+      - relpath: images/REGION_5-21_1136_2160_0_1024.jpg
+        md5: b6d5a2ec87ec66be2024a00300cdc2d5
+      - relpath: images/REGION_5-7_1024_2048_2048_3072.jpg
+        md5: d465716900e75d6656621c89c0404ef2
+      - relpath: images/REGION_5-7_1136_2160_1024_2048.jpg
+        md5: 258ff383e3257e9765f1bf2bddad6787
+      - relpath: images/REGION_5-7_1136_2160_2048_3072.jpg
+        md5: 4160d5e7f474c085459c8fd4cebf76ed
+      - relpath: images/REGION_5-7_1136_2160_2816_3840.jpg
+        md5: 626bc103252ee0d07b06a7892c9b5aa4
+      - relpath: images/REGION_6-13_0_1024_1024_2048.jpg
+        md5: bb16f42795ebea4975d56d1e4e847bdc
+      - relpath: images/REGION_6-13_0_1024_2048_3072.jpg
+        md5: d827e7943701cb9ec519bf12dbccba51
+      - relpath: images/REGION_6-13_1024_2048_2048_3072.jpg
+        md5: 532c0d876503be585c238f4717a744ae
+      - relpath: images/REGION_6-13_1136_2160_2048_3072.jpg
+        md5: 1d1c7106bb835d704280e07bb543a8e2
+      - relpath: images/REGION_6-18_0_1024_0_1024.jpg
+        md5: 8d54d4393ef2232b74867d9fff5b6682
+      - relpath: images/REGION_6-18_0_1024_1024_2048.jpg
+        md5: 9a936002a8f77c7c74a3afe76a5bee31
+      - relpath: images/REGION_6-20_0_1024_2048_3072.jpg
+        md5: 5e7dfb2d9807858362c29e7c69d7d88b
+      - relpath: images/REGION_6-20_1024_2048_1024_2048.jpg
+        md5: 6b471c58a7d9577265f814da7351d42c
+      - relpath: images/REGION_6-4_0_1024_1024_2048.jpg
+        md5: 9e3091c576e3826e1931b3de798d6bcd
+      - relpath: images/REGION_7-3_0_1024_2048_3072.jpg
+        md5: c4b3f583847403f5bb47a6ad72c1deac
+      - relpath: images/REGION_7-3_0_1024_2816_3840.jpg
+        md5: 7354f15ed32da16cf03c88d1afc5898a
+      - relpath: images/REGION_7-3_1024_2048_0_1024.jpg
+        md5: a907766d4eb1d7cc886341f18bccfff6
+      - relpath: images/REGION_7-3_1024_2048_1024_2048.jpg
+        md5: 5d37498ca485993797e9b231a9a67df4
+      - relpath: images/REGION_7-3_1024_2048_2048_3072.jpg
+        md5: 9d718f7c8e979feb644347e8ff4f3ad4
+      - relpath: images/REGION_7-3_1136_2160_1024_2048.jpg
+        md5: 4a9db37a64b256a4c059bb282bb978af
+      - relpath: images/REGION_7-3_1136_2160_2048_3072.jpg
+        md5: 1d4875b9b25f9e180e27d0db7ee52c47
+      - relpath: images/REGION_8-24_0_1024_1024_2048.jpg
+        md5: fcb935059c7f79f939b3bd9328803cf6
+      - relpath: images/REGION_8-24_0_1024_2816_3840.jpg
+        md5: c74cc1512a1fa33a868a5aa37a7bee1b
+      - relpath: images/REGION_8-24_1024_2048_1024_2048.jpg
+        md5: 55ed157372d2c97be65c1f9216b7dd62
+      - relpath: images/REGION_8-24_1024_2048_2048_3072.jpg
+        md5: 11a320096e8fc49b9b65a4816eda6659
+      - relpath: images/REGION_8-24_1136_2160_1024_2048.jpg
+        md5: 8647ff0317231732cea6d68ede538eaf
+      - relpath: images/REGION_8-24_1136_2160_2048_3072.jpg
+        md5: 5914e490f38a90ebc1b0603d9705497a
+      - relpath: masks/REGION_1-24_0_1024_0_1024.png
+        md5: 5cc36d4649f6b8c9585fd0c1612967ca
+      - relpath: masks/REGION_1-24_0_1024_1024_2048.png
+        md5: 6d7bb56161dc79704c641eff91ce0a87
+      - relpath: masks/REGION_1-24_0_1024_2048_3072.png
+        md5: f4bbfa88c7e66a826c0b8f52df8cb33e
+      - relpath: masks/REGION_1-24_0_1024_2816_3840.png
+        md5: d3d0562dc1bac0cb983ea1c50252f544
+      - relpath: masks/REGION_1-24_1024_2048_0_1024.png
+        md5: 11c5668be24af97dc8da9af67a7881df
+      - relpath: masks/REGION_1-24_1024_2048_1024_2048.png
+        md5: b3f40784e146c457057162873c66de80
+      - relpath: masks/REGION_1-24_1024_2048_2048_3072.png
+        md5: 46997823169c5bdbb3324b9a295cbaa2
+      - relpath: masks/REGION_1-24_1024_2048_2816_3840.png
+        md5: f23047eca8a3ed278926e91eddbf2106
+      - relpath: masks/REGION_1-24_1136_2160_0_1024.png
+        md5: 67581ef6ffc98be2b124ba9bfa6609fc
+      - relpath: masks/REGION_1-24_1136_2160_1024_2048.png
+        md5: 734d6d500903e0c7e2bf4f212953a51a
+      - relpath: masks/REGION_1-24_1136_2160_2048_3072.png
+        md5: 7027b138b724f974a2ebea6333f1f3e4
+      - relpath: masks/REGION_1-24_1136_2160_2816_3840.png
+        md5: 93fd6f18f465f0224056760ea1ac2342
+      - relpath: masks/REGION_2-19_0_1024_0_1024.png
+        md5: ca081022a5c15619cc31e927c0789b45
+      - relpath: masks/REGION_2-19_1024_2048_0_1024.png
+        md5: 59e5e42edb3af525de2642338540fc8d
+      - relpath: masks/REGION_2-19_1136_2160_0_1024.png
+        md5: 148fd37d8d6a891a70eebef26cce577b
+      - relpath: masks/REGION_2-4_0_1024_2816_3840.png
+        md5: dcec6307080a54cd871a41d2edf76800
+      - relpath: masks/REGION_2-4_1024_2048_1024_2048.png
+        md5: 80345ef5dc200194481b30c9111d4ed8
+      - relpath: masks/REGION_2-4_1024_2048_2048_3072.png
+        md5: 6c50f52afc190f7c8b8f319a4e12e0a3
+      - relpath: masks/REGION_2-4_1024_2048_2816_3840.png
+        md5: 95fd2d40ac85d956f03ae2b73b5836f7
+      - relpath: masks/REGION_2-4_1136_2160_1024_2048.png
+        md5: c1ff94cc7966f2feacd705e9d1ae2fa4
+      - relpath: masks/REGION_2-4_1136_2160_2048_3072.png
+        md5: 93506b33c92f5a4e4ee8f06107272fbe
+      - relpath: masks/REGION_2-4_1136_2160_2816_3840.png
+        md5: 4a08111924c34ba7cb1b6bef6d8f47e6
+      - relpath: masks/REGION_3-25_0_1024_0_1024.png
+        md5: d7d53c6a693fb4e3c8e9672119efe383
+      - relpath: masks/REGION_3-25_0_1024_1024_2048.png
+        md5: ccf12eb05eb96e68a6087656a3f20d4e
+      - relpath: masks/REGION_3-25_0_1024_2048_3072.png
+        md5: 0e599b2fe4a61f10e1909ba8d2c93863
+      - relpath: masks/REGION_3-25_0_1024_2816_3840.png
+        md5: 58928deabd60725fedfa237652b7d608
+      - relpath: masks/REGION_3-25_1024_2048_0_1024.png
+        md5: 16040020241dbf81b53567048f8a251b
+      - relpath: masks/REGION_3-25_1024_2048_1024_2048.png
+        md5: da19cf27ce518b58cc141067e39c954c
+      - relpath: masks/REGION_3-25_1136_2160_0_1024.png
+        md5: b1f2fa292aae99016637aecddc9428a9
+      - relpath: masks/REGION_3-25_1136_2160_1024_2048.png
+        md5: f72496b1e900ac80bc88854af5412120
+      - relpath: masks/REGION_3-8_0_1024_2048_3072.png
+        md5: 50ac1d68b3481328fecf8ead0febbd15
+      - relpath: masks/REGION_3-8_0_1024_2816_3840.png
+        md5: 4840f2222ae26282e7ade2cfe8661fa5
+      - relpath: masks/REGION_3-8_1024_2048_0_1024.png
+        md5: 0197c72aa3d0c63058f2718eccc485d3
+      - relpath: masks/REGION_3-8_1024_2048_1024_2048.png
+        md5: 2965080de903d22763207c914042a4bf
+      - relpath: masks/REGION_3-8_1024_2048_2048_3072.png
+        md5: 87162cee482c3fa58811352862a49557
+      - relpath: masks/REGION_3-8_1024_2048_2816_3840.png
+        md5: bcfca6bf01a9903c12deaf7273548e22
+      - relpath: masks/REGION_3-8_1136_2160_0_1024.png
+        md5: 451875a9b33cbcc918abf60d305db451
+      - relpath: masks/REGION_3-8_1136_2160_1024_2048.png
+        md5: 531a051b74769f8664778620fb4b9676
+      - relpath: masks/REGION_3-8_1136_2160_2048_3072.png
+        md5: ef76ce102a9e2b28bf5a045a5b4c4989
+      - relpath: masks/REGION_3-8_1136_2160_2816_3840.png
+        md5: 3573dd09dd61f45fe56a01873e9bd097
+      - relpath: masks/REGION_4-12_0_1024_1024_2048.png
+        md5: 7d1cfc08e8b2c8cad943e5cb1441c6f1
+      - relpath: masks/REGION_4-12_0_1024_2048_3072.png
+        md5: e22949f5f1d0665e4b8721e6957fe7c5
+      - relpath: masks/REGION_4-12_0_1024_2816_3840.png
+        md5: ee791a546a9389afca77bcd670ba8fcc
+      - relpath: masks/REGION_4-12_1024_2048_0_1024.png
+        md5: 95da22c9982822d6cc770fadc4711fd9
+      - relpath: masks/REGION_4-12_1024_2048_1024_2048.png
+        md5: d16521e21c637c16076b78e021837bed
+      - relpath: masks/REGION_4-12_1024_2048_2048_3072.png
+        md5: cfe31f3c74d92d76d020c18db909fad7
+      - relpath: masks/REGION_4-12_1024_2048_2816_3840.png
+        md5: 0b1bd91a9a2118fad4e11f46e179d4a9
+      - relpath: masks/REGION_4-12_1136_2160_0_1024.png
+        md5: 5f26269d0faeb4fe0f4150400b7b791c
+      - relpath: masks/REGION_4-12_1136_2160_1024_2048.png
+        md5: a65de737a789c9c053dfd3b54b75fee1
+      - relpath: masks/REGION_4-12_1136_2160_2048_3072.png
+        md5: 94f73c3df1ab89bfbccae563385760de
+      - relpath: masks/REGION_4-12_1136_2160_2816_3840.png
+        md5: 0189bb5f03aaa15ac6c9dd01e6bdf06b
+      - relpath: masks/REGION_4-22_0_1024_0_1024.png
+        md5: 2d3269226f749263f6d85b5b6373eedb
+      - relpath: masks/REGION_4-22_0_1024_1024_2048.png
+        md5: 3050ba20e5858028005e38e3e4645819
+      - relpath: masks/REGION_4-22_1024_2048_0_1024.png
+        md5: 6381ca441f75c371eac4136bfe544fc6
+      - relpath: masks/REGION_4-22_1024_2048_1024_2048.png
+        md5: f5cc93e80b331dbb2ca0b681733ddd81
+      - relpath: masks/REGION_4-22_1024_2048_2048_3072.png
+        md5: d558f032b5ec5ee514454a041d3f3919
+      - relpath: masks/REGION_4-22_1024_2048_2816_3840.png
+        md5: 4df8e30b7b12c9059138538d461d7666
+      - relpath: masks/REGION_4-22_1136_2160_1024_2048.png
+        md5: 37297d2806a3b796c935f8d7475f2045
+      - relpath: masks/REGION_4-22_1136_2160_2048_3072.png
+        md5: d119b9d6836b6d202c821a2bb8cb2b03
+      - relpath: masks/REGION_4-22_1136_2160_2816_3840.png
+        md5: c2e073d30bf8c5d3a10c72046b1ed71b
+      - relpath: masks/REGION_5-15_0_1024_1024_2048.png
+        md5: b1d13cfa55340b66728c15f23ef681ed
+      - relpath: masks/REGION_5-15_1024_2048_0_1024.png
+        md5: 5a1f34f21925e046ba561f9bf8e310b0
+      - relpath: masks/REGION_5-15_1136_2160_0_1024.png
+        md5: ee16ce674f6ccdd06f1882d20183eb7e
+      - relpath: masks/REGION_5-21_0_1024_2048_3072.png
+        md5: cff27cd2b1e81e8be35faa360dd43430
+      - relpath: masks/REGION_5-21_1136_2160_0_1024.png
+        md5: 1d3e032d4220aca699d57e831c78cacf
+      - relpath: masks/REGION_5-7_1024_2048_2048_3072.png
+        md5: 6d758bddc06a621eca628560e2619624
+      - relpath: masks/REGION_5-7_1136_2160_1024_2048.png
+        md5: 4519c663db070844f50ba0c25bc92707
+      - relpath: masks/REGION_5-7_1136_2160_2048_3072.png
+        md5: a3da2fbb50ba395f4fac4aa5f7a3173c
+      - relpath: masks/REGION_5-7_1136_2160_2816_3840.png
+        md5: 60307f5f7b67a515a88546455ac143bd
+      - relpath: masks/REGION_6-13_0_1024_1024_2048.png
+        md5: 91d5aaa24436d9d4cf5bc24b3a4dfd78
+      - relpath: masks/REGION_6-13_0_1024_2048_3072.png
+        md5: e8dd6280b504ed035fa5f46ab6bf5fc8
+      - relpath: masks/REGION_6-13_1024_2048_2048_3072.png
+        md5: bcd9c7baae465ed9d1de70c46283c190
+      - relpath: masks/REGION_6-13_1136_2160_2048_3072.png
+        md5: 254bdde598b42109d2b3a17ebe36d8a6
+      - relpath: masks/REGION_6-18_0_1024_0_1024.png
+        md5: efd077f2c4e1718ff41109fac87be60e
+      - relpath: masks/REGION_6-18_0_1024_1024_2048.png
+        md5: a6a246685b1e1a477d0a6cb074e01e65
+      - relpath: masks/REGION_6-20_0_1024_2048_3072.png
+        md5: 1f7685374f44528f6987f2adc127fde7
+      - relpath: masks/REGION_6-20_1024_2048_1024_2048.png
+        md5: a6129fd542be03885fe67cf7bc6c11ac
+      - relpath: masks/REGION_6-4_0_1024_1024_2048.png
+        md5: 89318213e304588ae0e74c867c8cc27f
+      - relpath: masks/REGION_7-3_0_1024_2048_3072.png
+        md5: 0d13d72c8c11643f1242f26ee5595edd
+      - relpath: masks/REGION_7-3_0_1024_2816_3840.png
+        md5: b8d8e7ba333faed1dc247385d56aea40
+      - relpath: masks/REGION_7-3_1024_2048_0_1024.png
+        md5: dc3cbd8c6bdb01f92231d32ddd698518
+      - relpath: masks/REGION_7-3_1024_2048_1024_2048.png
+        md5: f48b45990ec451ff5eb78db2e909cbd0
+      - relpath: masks/REGION_7-3_1024_2048_2048_3072.png
+        md5: 36d2aaca679ed300a40af9434ad134ac
+      - relpath: masks/REGION_7-3_1136_2160_1024_2048.png
+        md5: 12074a1a894dea58793404c3d66195e2
+      - relpath: masks/REGION_7-3_1136_2160_2048_3072.png
+        md5: ff4cbc05b2ec4f5b5c3a51d9345e7535
+      - relpath: masks/REGION_8-24_0_1024_1024_2048.png
+        md5: 7f84cae8f2750e5a03e54f5e5c4fa094
+      - relpath: masks/REGION_8-24_0_1024_2816_3840.png
+        md5: ec2d7a0cfaba42f07c691813fe7b18c9
+      - relpath: masks/REGION_8-24_1024_2048_1024_2048.png
+        md5: e898d3a69b2d5eb1712b3f294cc2b8a0
+      - relpath: masks/REGION_8-24_1024_2048_2048_3072.png
+        md5: a075484f08048ccc648f63662b854323
+      - relpath: masks/REGION_8-24_1136_2160_1024_2048.png
+        md5: 68e7481494db0bf17cd9928687af43c2
+      - relpath: masks/REGION_8-24_1136_2160_2048_3072.png
+        md5: 5c0e978f2d6f74e4f38f1aa4bcb9a6d1
     - path: src/data_split.py
       md5: e25f97724df2d2dfdfd05e228b788a58
       size: 1011
@@ -18,20 +382,1584 @@ stages:
           test_pct: 0.15
     outs:
     - path: data/test_data
-      md5: 1f0a1e034255ad40c65cf4858ed404cd.dir
-      size: 3462943
-      nfiles: 34
+      files:
+      - relpath: REGION_1-24_1136_2160_0_1024.jpg
+        md5: 88a48bd85baa0c33fd20204a09ada713
+        size: 167269
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE5176A46"'
+            version_id: '2023-05-01T11:55:01.5132742Z'
+      - relpath: REGION_1-24_1136_2160_0_1024.png
+        md5: 67581ef6ffc98be2b124ba9bfa6609fc
+        size: 1987
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADDAA594F"'
+            version_id: '2023-05-01T11:54:49.0544463Z'
+      - relpath: REGION_2-19_1136_2160_0_1024.jpg
+        md5: 80c5e075adb8fc3bd6c86472499eece9
+        size: 237526
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE88AD92C"'
+            version_id: '2023-05-01T11:55:07.3029420Z'
+      - relpath: REGION_2-19_1136_2160_0_1024.png
+        md5: 148fd37d8d6a891a70eebef26cce577b
+        size: 2616
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD6AE8AD"'
+            version_id: '2023-05-01T11:54:48.6386861Z'
+      - relpath: REGION_3-25_0_1024_1024_2048.jpg
+        md5: 3aa2bfd3989a44c8949dbbeb8b050311
+        size: 248904
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE9D466A2"'
+            version_id: '2023-05-01T11:55:09.4626978Z'
+      - relpath: REGION_3-25_0_1024_1024_2048.png
+        md5: ccf12eb05eb96e68a6087656a3f20d4e
+        size: 3742
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD56A053"'
+            version_id: '2023-05-01T11:54:48.5057619Z'
+      - relpath: REGION_3-8_0_1024_2816_3840.jpg
+        md5: 317348eb15cde8c4463294340f7208f3
+        size: 213460
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE6FB734D"'
+            version_id: '2023-05-01T11:55:04.6854477Z'
+      - relpath: REGION_3-8_0_1024_2816_3840.png
+        md5: 4840f2222ae26282e7ade2cfe8661fa5
+        size: 2903
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC8C1B2A"'
+            version_id: '2023-05-01T11:54:47.1785258Z'
+      - relpath: REGION_3-8_1136_2160_1024_2048.jpg
+        md5: 54b3bb4564aba195616ba965df498233
+        size: 234071
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE86B47DB"'
+            version_id: '2023-05-01T11:55:07.0960603Z'
+      - relpath: REGION_3-8_1136_2160_1024_2048.png
+        md5: 531a051b74769f8664778620fb4b9676
+        size: 3309
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD53BA9E"'
+            version_id: '2023-05-01T11:54:48.4867742Z'
+      - relpath: REGION_4-12_1024_2048_1024_2048.jpg
+        md5: f5908a074f192941684c7268cf4f44c9
+        size: 189778
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE66E634A"'
+            version_id: '2023-05-01T11:55:03.7609802Z'
+      - relpath: REGION_4-12_1024_2048_1024_2048.png
+        md5: d16521e21c637c16076b78e021837bed
+        size: 2270
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD4E3D22"'
+            version_id: '2023-05-01T11:54:48.4507938Z'
+      - relpath: REGION_4-12_1136_2160_2048_3072.jpg
+        md5: 77242375a040852884e405c711504a38
+        size: 206229
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE636E0B1"'
+            version_id: '2023-05-01T11:55:03.3971889Z'
+      - relpath: REGION_4-12_1136_2160_2048_3072.png
+        md5: 94f73c3df1ab89bfbccae563385760de
+        size: 4929
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD719E6E"'
+            version_id: '2023-05-01T11:54:48.6826606Z'
+      - relpath: REGION_4-22_1136_2160_1024_2048.jpg
+        md5: ef26caf084e914462ed21d507542aff8
+        size: 215158
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE71427C4"'
+            version_id: '2023-05-01T11:55:04.8483540Z'
+      - relpath: REGION_4-22_1136_2160_1024_2048.png
+        md5: 37297d2806a3b796c935f8d7475f2045
+        size: 3728
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD7C9948"'
+            version_id: '2023-05-01T11:54:48.7546184Z'
+      - relpath: REGION_5-15_0_1024_1024_2048.jpg
+        md5: 8d95f9cbebf4f62390810b67e9d61d43
+        size: 175399
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE58891FF"'
+            version_id: '2023-05-01T11:55:02.2558459Z'
+      - relpath: REGION_5-15_0_1024_1024_2048.png
+        md5: b1d13cfa55340b66728c15f23ef681ed
+        size: 2597
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADDB860FD"'
+            version_id: '2023-05-01T11:54:49.1463933Z'
+      - relpath: REGION_5-15_1024_2048_0_1024.jpg
+        md5: fad7655847b2f99c1e250e2140daa175
+        size: 178705
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE57B7484"'
+            version_id: '2023-05-01T11:55:02.1688964Z'
+      - relpath: REGION_5-15_1024_2048_0_1024.png
+        md5: 5a1f34f21925e046ba561f9bf8e310b0
+        size: 3442
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD5BA8A5"'
+            version_id: '2023-05-01T11:54:48.5397427Z'
+      - relpath: REGION_5-15_1136_2160_0_1024.jpg
+        md5: be1ec6972bcb9fb6c30fe4f72517778b
+        size: 178904
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE4872662"'
+            version_id: '2023-05-01T11:55:00.5678178Z'
+      - relpath: REGION_5-15_1136_2160_0_1024.png
+        md5: ee16ce674f6ccdd06f1882d20183eb7e
+        size: 3963
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC80F940"'
+            version_id: '2023-05-01T11:54:47.1055680Z'
+      - relpath: REGION_5-7_1136_2160_2048_3072.jpg
+        md5: 4160d5e7f474c085459c8fd4cebf76ed
+        size: 157855
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE4C5ACCC"'
+            version_id: '2023-05-01T11:55:00.9775820Z'
+      - relpath: REGION_5-7_1136_2160_2048_3072.png
+        md5: a3da2fbb50ba395f4fac4aa5f7a3173c
+        size: 2088
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADCB40FA8"'
+            version_id: '2023-05-01T11:54:47.4413757Z'
+      - relpath: REGION_6-13_1024_2048_2048_3072.jpg
+        md5: 532c0d876503be585c238f4717a744ae
+        size: 200252
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE6D55356"'
+            version_id: '2023-05-01T11:55:04.4355926Z'
+      - relpath: REGION_6-13_1024_2048_2048_3072.png
+        md5: bcd9c7baae465ed9d1de70c46283c190
+        size: 2546
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC84060E"'
+            version_id: '2023-05-01T11:54:47.1255566Z'
+      - relpath: REGION_7-3_1024_2048_1024_2048.jpg
+        md5: 5d37498ca485993797e9b231a9a67df4
+        size: 198053
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE6D13534"'
+            version_id: '2023-05-01T11:55:04.4086068Z'
+      - relpath: REGION_7-3_1024_2048_1024_2048.png
+        md5: f48b45990ec451ff5eb78db2e909cbd0
+        size: 2838
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADCE3F249"'
+            version_id: '2023-05-01T11:54:47.7541961Z'
+      - relpath: REGION_7-3_1136_2160_1024_2048.jpg
+        md5: 4a9db37a64b256a4c059bb282bb978af
+        size: 197270
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE5E1C85A"'
+            version_id: '2023-05-01T11:55:02.8395098Z'
+      - relpath: REGION_7-3_1136_2160_1024_2048.png
+        md5: 12074a1a894dea58793404c3d66195e2
+        size: 2622
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD74F953"'
+            version_id: '2023-05-01T11:54:48.7046483Z'
+      - relpath: REGION_8-24_1024_2048_2048_3072.jpg
+        md5: 11a320096e8fc49b9b65a4816eda6659
+        size: 206140
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE6F29AFC"'
+            version_id: '2023-05-01T11:55:04.6274812Z'
+      - relpath: REGION_8-24_1024_2048_2048_3072.png
+        md5: a075484f08048ccc648f63662b854323
+        size: 3904
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC7A6A8F"'
+            version_id: '2023-05-01T11:54:47.0625935Z'
+      - relpath: REGION_8-24_1136_2160_1024_2048.jpg
+        md5: 8647ff0317231732cea6d68ede538eaf
+        size: 204058
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE6DAD0BA"'
+            version_id: '2023-05-01T11:55:04.4715706Z'
+      - relpath: REGION_8-24_1136_2160_1024_2048.png
+        md5: 68e7481494db0bf17cd9928687af43c2
+        size: 4428
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD74F953"'
+            version_id: '2023-05-01T11:54:48.7046483Z'
     - path: data/train_data
-      md5: a14914527fa6a82f91911013614d4068.dir
-      size: 15530783
-      nfiles: 148
+      files:
+      - relpath: REGION_1-24_0_1024_0_1024.jpg
+        md5: dfeb4c398dd0a81afa3354183e39ba61
+        size: 160353
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC69A423"'
+            version_id: '2023-05-01T11:54:46.9526563Z'
+      - relpath: REGION_1-24_0_1024_0_1024.png
+        md5: 5cc36d4649f6b8c9585fd0c1612967ca
+        size: 1848
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3832324"'
+            version_id: '2023-05-01T11:54:32.0212532Z'
+      - relpath: REGION_1-24_0_1024_1024_2048.jpg
+        md5: 371093d962f861498013dec0f9c14187
+        size: 177025
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB9ED0E7"'
+            version_id: '2023-05-01T11:54:45.6234215Z'
+      - relpath: REGION_1-24_0_1024_1024_2048.png
+        md5: 6d7bb56161dc79704c641eff91ce0a87
+        size: 2886
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD37A4ACD"'
+            version_id: '2023-05-01T11:54:31.9622861Z'
+      - relpath: REGION_1-24_0_1024_2048_3072.jpg
+        md5: eacfdb72cf95980723d1640fe127b41b
+        size: 180221
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE5F80C37"'
+            version_id: '2023-05-01T11:55:02.9854263Z'
+      - relpath: REGION_1-24_0_1024_2048_3072.png
+        md5: f4bbfa88c7e66a826c0b8f52df8cb33e
+        size: 3097
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD379D5B9"'
+            version_id: '2023-05-01T11:54:31.9592889Z'
+      - relpath: REGION_1-24_0_1024_2816_3840.jpg
+        md5: 3cde88bc92ce89a161dadaf75ad5fd69
+        size: 149587
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB992C6B"'
+            version_id: '2023-05-01T11:54:45.5864427Z'
+      - relpath: REGION_1-24_0_1024_2816_3840.png
+        md5: d3d0562dc1bac0cb983ea1c50252f544
+        size: 2000
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC157607"'
+            version_id: '2023-05-01T11:54:46.4009735Z'
+      - relpath: REGION_1-24_1024_2048_0_1024.jpg
+        md5: 894b81d3e754fecb61d09ef49a0b571e
+        size: 165213
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADA5BAB19"'
+            version_id: '2023-05-01T11:54:43.5056409Z'
+      - relpath: REGION_1-24_1024_2048_0_1024.png
+        md5: 11c5668be24af97dc8da9af67a7881df
+        size: 2071
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3A747A6"'
+            version_id: '2023-05-01T11:54:32.2571174Z'
+      - relpath: REGION_1-24_1024_2048_1024_2048.jpg
+        md5: adedc5d466e5556fcb64218ba4be57db
+        size: 172698
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE033B1C7"'
+            version_id: '2023-05-01T11:54:53.3099975Z'
+      - relpath: REGION_1-24_1024_2048_1024_2048.png
+        md5: b3f40784e146c457057162873c66de80
+        size: 2759
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3A21845"'
+            version_id: '2023-05-01T11:54:32.2231365Z'
+      - relpath: REGION_1-24_1024_2048_2048_3072.jpg
+        md5: 8df2f8b472a07dc0e21bf6cc2528b0f1
+        size: 182622
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADCB0B4CE"'
+            version_id: '2023-05-01T11:54:47.4183886Z'
+      - relpath: REGION_1-24_1024_2048_2048_3072.png
+        md5: 46997823169c5bdbb3324b9a295cbaa2
+        size: 2538
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3A6AB76"'
+            version_id: '2023-05-01T11:54:32.2531190Z'
+      - relpath: REGION_1-24_1024_2048_2816_3840.jpg
+        md5: 2f3cbdb91fea695465a46d46cc7a5b0c
+        size: 174707
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADAE51229"'
+            version_id: '2023-05-01T11:54:44.4061225Z'
+      - relpath: REGION_1-24_1024_2048_2816_3840.png
+        md5: f23047eca8a3ed278926e91eddbf2106
+        size: 3342
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD35BA3C2"'
+            version_id: '2023-05-01T11:54:31.7614018Z'
+      - relpath: REGION_1-24_1136_2160_1024_2048.jpg
+        md5: d1cb32d65bd8291445a14c3adb395273
+        size: 170758
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB6579D9"'
+            version_id: '2023-05-01T11:54:45.2486378Z'
+      - relpath: REGION_1-24_1136_2160_1024_2048.png
+        md5: 734d6d500903e0c7e2bf4f212953a51a
+        size: 2365
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD40EACBA"'
+            version_id: '2023-05-01T11:54:32.9347258Z'
+      - relpath: REGION_1-24_1136_2160_2048_3072.jpg
+        md5: 2054ee6a97e6a84eebe37cd4d414b21b
+        size: 182423
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADDB22061"'
+            version_id: '2023-05-01T11:54:49.1054177Z'
+      - relpath: REGION_1-24_1136_2160_2048_3072.png
+        md5: 7027b138b724f974a2ebea6333f1f3e4
+        size: 2538
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD44FA3CE"'
+            version_id: '2023-05-01T11:54:33.3604814Z'
+      - relpath: REGION_1-24_1136_2160_2816_3840.jpg
+        md5: 2496e73d1169194c62de736ee12e1d95
+        size: 174112
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADBB03378"'
+            version_id: '2023-05-01T11:54:45.7373560Z'
+      - relpath: REGION_1-24_1136_2160_2816_3840.png
+        md5: 93fd6f18f465f0224056760ea1ac2342
+        size: 3342
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD4D7847C"'
+            version_id: '2023-05-01T11:54:34.2509692Z'
+      - relpath: REGION_2-19_0_1024_0_1024.jpg
+        md5: 30073c07d42e2f649da49f5e071fff34
+        size: 237050
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE68347C3"'
+            version_id: '2023-05-01T11:55:03.8979011Z'
+      - relpath: REGION_2-19_0_1024_0_1024.png
+        md5: ca081022a5c15619cc31e927c0789b45
+        size: 2312
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB6DDD0E"'
+            version_id: '2023-05-01T11:54:45.3026062Z'
+      - relpath: REGION_2-19_1024_2048_0_1024.jpg
+        md5: e846b520cdf27bbf910c83816b3b40fb
+        size: 239592
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADE19857A"'
+            version_id: '2023-05-01T11:54:49.7830266Z'
+      - relpath: REGION_2-19_1024_2048_0_1024.png
+        md5: 59e5e42edb3af525de2642338540fc8d
+        size: 2616
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD38F5654"'
+            version_id: '2023-05-01T11:54:32.1002068Z'
+      - relpath: REGION_2-4_0_1024_2816_3840.jpg
+        md5: d5ed588650d01c8a751b5c6f8b6b933f
+        size: 261234
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE1F7183A"'
+            version_id: '2023-05-01T11:54:56.2692925Z'
+      - relpath: REGION_2-4_0_1024_2816_3840.png
+        md5: dcec6307080a54cd871a41d2edf76800
+        size: 2533
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD43C6CC1"'
+            version_id: '2023-05-01T11:54:33.2345537Z'
+      - relpath: REGION_2-4_1024_2048_1024_2048.jpg
+        md5: 9a48b103fc1800f3ec15aa279082d533
+        size: 249920
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE79EC72B"'
+            version_id: '2023-05-01T11:55:05.7558315Z'
+      - relpath: REGION_2-4_1024_2048_1024_2048.png
+        md5: 80345ef5dc200194481b30c9111d4ed8
+        size: 3299
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD402A096"'
+            version_id: '2023-05-01T11:54:32.8557718Z'
+      - relpath: REGION_2-4_1024_2048_2048_3072.jpg
+        md5: 42fb3bbe6f5f822d1e9b7955a955ccc0
+        size: 259469
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE3AEE7A0"'
+            version_id: '2023-05-01T11:54:59.1516344Z'
+      - relpath: REGION_2-4_1024_2048_2048_3072.png
+        md5: 6c50f52afc190f7c8b8f319a4e12e0a3
+        size: 2682
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC1BDDB6"'
+            version_id: '2023-05-01T11:54:46.4429494Z'
+      - relpath: REGION_2-4_1024_2048_2816_3840.jpg
+        md5: d2da96edca8cd2655df6b13808ca03cb
+        size: 255319
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE2533463"'
+            version_id: '2023-05-01T11:54:56.8719459Z'
+      - relpath: REGION_2-4_1024_2048_2816_3840.png
+        md5: 95fd2d40ac85d956f03ae2b73b5836f7
+        size: 4125
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD4926F51"'
+            version_id: '2023-05-01T11:54:33.7982289Z'
+      - relpath: REGION_2-4_1136_2160_1024_2048.jpg
+        md5: 66db382f347524b17ba39c34b050eb2b
+        size: 245940
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE145959B"'
+            version_id: '2023-05-01T11:54:55.1059627Z'
+      - relpath: REGION_2-4_1136_2160_1024_2048.png
+        md5: c1ff94cc7966f2feacd705e9d1ae2fa4
+        size: 2963
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD41C3F4F"'
+            version_id: '2023-05-01T11:54:33.0236751Z'
+      - relpath: REGION_2-4_1136_2160_2048_3072.jpg
+        md5: 41c079da7868f7615643a2fac3e6d5f8
+        size: 255969
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE0F9F1C7"'
+            version_id: '2023-05-01T11:54:54.6102472Z'
+      - relpath: REGION_2-4_1136_2160_2048_3072.png
+        md5: 93506b33c92f5a4e4ee8f06107272fbe
+        size: 3161
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3808B70"'
+            version_id: '2023-05-01T11:54:32.0032624Z'
+      - relpath: REGION_2-4_1136_2160_2816_3840.jpg
+        md5: c8689beb48ec8a5280f7b688b3de490e
+        size: 254553
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE16944FE"'
+            version_id: '2023-05-01T11:54:55.3388286Z'
+      - relpath: REGION_2-4_1136_2160_2816_3840.png
+        md5: 4a08111924c34ba7cb1b6bef6d8f47e6
+        size: 4004
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3FB75C0"'
+            version_id: '2023-05-01T11:54:32.8088000Z'
+      - relpath: REGION_3-25_0_1024_0_1024.jpg
+        md5: 757d114c0bbe0c6ce7a66bd2594c67b1
+        size: 246321
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE6ADD3E8"'
+            version_id: '2023-05-01T11:55:04.1767400Z'
+      - relpath: REGION_3-25_0_1024_0_1024.png
+        md5: d7d53c6a693fb4e3c8e9672119efe383
+        size: 2917
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD419598C"'
+            version_id: '2023-05-01T11:54:33.0046860Z'
+      - relpath: REGION_3-25_0_1024_2048_3072.jpg
+        md5: c8d326176d79785df92749f90a97dd1a
+        size: 247156
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADE262DD1"'
+            version_id: '2023-05-01T11:54:49.8659793Z'
+      - relpath: REGION_3-25_0_1024_2048_3072.png
+        md5: 0e599b2fe4a61f10e1909ba8d2c93863
+        size: 2891
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB9AD9DE"'
+            version_id: '2023-05-01T11:54:45.5974366Z'
+      - relpath: REGION_3-25_0_1024_2816_3840.jpg
+        md5: 6b34a51c37cdff8db262fc5afe85fed1
+        size: 234740
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADF1EE80F"'
+            version_id: '2023-05-01T11:54:51.4960399Z'
+      - relpath: REGION_3-25_0_1024_2816_3840.png
+        md5: 58928deabd60725fedfa237652b7d608
+        size: 2744
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB91B375"'
+            version_id: '2023-05-01T11:54:45.5374709Z'
+      - relpath: REGION_3-25_1024_2048_0_1024.jpg
+        md5: 6b3bc4bddc7d11d1b6f5ef39505ded76
+        size: 237923
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD659250"'
+            version_id: '2023-05-01T11:54:48.6037072Z'
+      - relpath: REGION_3-25_1024_2048_0_1024.png
+        md5: 16040020241dbf81b53567048f8a251b
+        size: 2790
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3908EA9"'
+            version_id: '2023-05-01T11:54:32.1082025Z'
+      - relpath: REGION_3-25_1024_2048_1024_2048.jpg
+        md5: 6f9c052e8ab738982b94a2efbfe25813
+        size: 237408
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADF5CF96A"'
+            version_id: '2023-05-01T11:54:51.9028074Z'
+      - relpath: REGION_3-25_1024_2048_1024_2048.png
+        md5: da19cf27ce518b58cc141067e39c954c
+        size: 4146
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADBDD304C"'
+            version_id: '2023-05-01T11:54:46.0331852Z'
+      - relpath: REGION_3-25_1136_2160_0_1024.jpg
+        md5: d77a97cab48ee7d62fc872feb728aca5
+        size: 234208
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADDD88E75"'
+            version_id: '2023-05-01T11:54:49.3572725Z'
+      - relpath: REGION_3-25_1136_2160_0_1024.png
+        md5: b1f2fa292aae99016637aecddc9428a9
+        size: 2909
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD35E3B7E"'
+            version_id: '2023-05-01T11:54:31.7783934Z'
+      - relpath: REGION_3-25_1136_2160_1024_2048.jpg
+        md5: 483acc5991087fe02ebe066665b951a4
+        size: 235991
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADFDDD631"'
+            version_id: '2023-05-01T11:54:52.7473201Z'
+      - relpath: REGION_3-25_1136_2160_1024_2048.png
+        md5: f72496b1e900ac80bc88854af5412120
+        size: 4521
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD458A32E"'
+            version_id: '2023-05-01T11:54:33.4204468Z'
+      - relpath: REGION_3-8_0_1024_2048_3072.jpg
+        md5: 9d9c362b001e5535ae7d7c6da512e11f
+        size: 214807
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB94C03F"'
+            version_id: '2023-05-01T11:54:45.5574591Z'
+      - relpath: REGION_3-8_0_1024_2048_3072.png
+        md5: 50ac1d68b3481328fecf8ead0febbd15
+        size: 2781
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD38B5F49"'
+            version_id: '2023-05-01T11:54:32.0742217Z'
+      - relpath: REGION_3-8_1024_2048_0_1024.jpg
+        md5: 81760788d4db01859319af1ff84fd2fc
+        size: 216116
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADEB47622"'
+            version_id: '2023-05-01T11:54:50.7984418Z'
+      - relpath: REGION_3-8_1024_2048_0_1024.png
+        md5: 0197c72aa3d0c63058f2718eccc485d3
+        size: 3163
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD38D0CC0"'
+            version_id: '2023-05-01T11:54:32.0852160Z'
+      - relpath: REGION_3-8_1024_2048_1024_2048.jpg
+        md5: 20395b929e1e2172f8333498b53e3f86
+        size: 240048
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD3C8C7A"'
+            version_id: '2023-05-01T11:54:48.3348602Z'
+      - relpath: REGION_3-8_1024_2048_1024_2048.png
+        md5: 2965080de903d22763207c914042a4bf
+        size: 3209
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC40EC74"'
+            version_id: '2023-05-01T11:54:46.6858100Z'
+      - relpath: REGION_3-8_1024_2048_2048_3072.jpg
+        md5: e6db9147653afbf747d24958ce52050b
+        size: 220075
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADCE614CF"'
+            version_id: '2023-05-01T11:54:47.7681871Z'
+      - relpath: REGION_3-8_1024_2048_2048_3072.png
+        md5: 87162cee482c3fa58811352862a49557
+        size: 3768
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD38D0CC0"'
+            version_id: '2023-05-01T11:54:32.0852160Z'
+      - relpath: REGION_3-8_1024_2048_2816_3840.jpg
+        md5: b1caa70ee2601c0aadc548c4cfd91359
+        size: 199861
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD8F8241"'
+            version_id: '2023-05-01T11:54:48.8785473Z'
+      - relpath: REGION_3-8_1024_2048_2816_3840.png
+        md5: bcfca6bf01a9903c12deaf7273548e22
+        size: 2535
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3AAF09D"'
+            version_id: '2023-05-01T11:54:32.2811037Z'
+      - relpath: REGION_3-8_1136_2160_0_1024.jpg
+        md5: 572b91d817fb6d434a7d4f86fae4adef
+        size: 219011
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD69894A"'
+            version_id: '2023-05-01T11:54:48.6296906Z'
+      - relpath: REGION_3-8_1136_2160_0_1024.png
+        md5: 451875a9b33cbcc918abf60d305db451
+        size: 3367
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD41C3F4F"'
+            version_id: '2023-05-01T11:54:33.0236751Z'
+      - relpath: REGION_3-8_1136_2160_2048_3072.jpg
+        md5: 352cce795ff75486dd7314b362f8c161
+        size: 217234
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD4D04D3"'
+            version_id: '2023-05-01T11:54:48.4427987Z'
+      - relpath: REGION_3-8_1136_2160_2048_3072.png
+        md5: ef76ce102a9e2b28bf5a045a5b4c4989
+        size: 3397
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD36E8CC7"'
+            version_id: '2023-05-01T11:54:31.8863299Z'
+      - relpath: REGION_3-8_1136_2160_2816_3840.jpg
+        md5: b66667cd6b7bd2e2be70200838002a58
+        size: 204933
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE06C459C"'
+            version_id: '2023-05-01T11:54:53.6807836Z'
+      - relpath: REGION_3-8_1136_2160_2816_3840.png
+        md5: 3573dd09dd61f45fe56a01873e9bd097
+        size: 2855
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3D2E51C"'
+            version_id: '2023-05-01T11:54:32.5429532Z'
+      - relpath: REGION_4-12_0_1024_1024_2048.jpg
+        md5: e1e869f6ab8c8c9a193e493c2c4fa82a
+        size: 178323
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADDA159F3"'
+            version_id: '2023-05-01T11:54:48.9964794Z'
+      - relpath: REGION_4-12_0_1024_1024_2048.png
+        md5: 7d1cfc08e8b2c8cad943e5cb1441c6f1
+        size: 1933
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB45C183"'
+            version_id: '2023-05-01T11:54:45.0407569Z'
+      - relpath: REGION_4-12_0_1024_2048_3072.jpg
+        md5: d5e2ce658cf28ecd7b7b56c05574b034
+        size: 190914
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE3AA2D62"'
+            version_id: '2023-05-01T11:54:59.1196514Z'
+      - relpath: REGION_4-12_0_1024_2048_3072.png
+        md5: e22949f5f1d0665e4b8721e6957fe7c5
+        size: 2336
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3A32989"'
+            version_id: '2023-05-01T11:54:32.2301321Z'
+      - relpath: REGION_4-12_0_1024_2816_3840.jpg
+        md5: ec9955890a004f06e607d0c89e810ff1
+        size: 192009
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE582ED81"'
+            version_id: '2023-05-01T11:55:02.2178689Z'
+      - relpath: REGION_4-12_0_1024_2816_3840.png
+        md5: ee791a546a9389afca77bcd670ba8fcc
+        size: 1880
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD4FCBA40"'
+            version_id: '2023-05-01T11:54:34.4948288Z'
+      - relpath: REGION_4-12_1024_2048_0_1024.jpg
+        md5: 8c723910290a5c47eaa42e3023fe8e76
+        size: 193967
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE490C1ED"'
+            version_id: '2023-05-01T11:55:00.6307821Z'
+      - relpath: REGION_4-12_1024_2048_0_1024.png
+        md5: 95da22c9982822d6cc770fadc4711fd9
+        size: 2344
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD44FA3CE"'
+            version_id: '2023-05-01T11:54:33.3604814Z'
+      - relpath: REGION_4-12_1024_2048_2048_3072.jpg
+        md5: 8c4b5126cfeba41c4da289fac1e1ae63
+        size: 209417
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD871F0F"'
+            version_id: '2023-05-01T11:54:48.8235791Z'
+      - relpath: REGION_4-12_1024_2048_2048_3072.png
+        md5: cfe31f3c74d92d76d020c18db909fad7
+        size: 4547
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADAF98180"'
+            version_id: '2023-05-01T11:54:44.5410446Z'
+      - relpath: REGION_4-12_1024_2048_2816_3840.jpg
+        md5: ebd6e0520f64758bdd5df80ddb371fc6
+        size: 215031
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD06904F"'
+            version_id: '2023-05-01T11:54:47.9820640Z'
+      - relpath: REGION_4-12_1024_2048_2816_3840.png
+        md5: 0b1bd91a9a2118fad4e11f46e179d4a9
+        size: 3898
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD38286F6"'
+            version_id: '2023-05-01T11:54:32.0162550Z'
+      - relpath: REGION_4-12_1136_2160_0_1024.jpg
+        md5: 62707db1fef2768922c6016773f62324
+        size: 195249
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD375D21"'
+            version_id: '2023-05-01T11:54:48.3018791Z'
+      - relpath: REGION_4-12_1136_2160_0_1024.png
+        md5: 5f26269d0faeb4fe0f4150400b7b791c
+        size: 2241
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD40E85B4"'
+            version_id: '2023-05-01T11:54:32.9337268Z'
+      - relpath: REGION_4-12_1136_2160_1024_2048.jpg
+        md5: 1cb40143a7c246213f914970cf29c1fd
+        size: 186992
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADAB249E1"'
+            version_id: '2023-05-01T11:54:44.0733153Z'
+      - relpath: REGION_4-12_1136_2160_1024_2048.png
+        md5: a65de737a789c9c053dfd3b54b75fee1
+        size: 2298
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3A5C131"'
+            version_id: '2023-05-01T11:54:32.2471217Z'
+      - relpath: REGION_4-12_1136_2160_2816_3840.jpg
+        md5: 2c5210c8f4210f102a2d8b1ab9b10377
+        size: 217121
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD6D324D"'
+            version_id: '2023-05-01T11:54:48.6536781Z'
+      - relpath: REGION_4-12_1136_2160_2816_3840.png
+        md5: 0189bb5f03aaa15ac6c9dd01e6bdf06b
+        size: 4378
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADBA2C7F0"'
+            version_id: '2023-05-01T11:54:45.6494064Z'
+      - relpath: REGION_4-22_0_1024_0_1024.jpg
+        md5: af0d1ce02bd320673a8b120237f2e302
+        size: 208853
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB96E2D0"'
+            version_id: '2023-05-01T11:54:45.5714512Z'
+      - relpath: REGION_4-22_0_1024_0_1024.png
+        md5: 2d3269226f749263f6d85b5b6373eedb
+        size: 3309
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD37CBB77"'
+            version_id: '2023-05-01T11:54:31.9782775Z'
+      - relpath: REGION_4-22_0_1024_1024_2048.jpg
+        md5: 7a7f5adb55e071ac77b78a99f7ace606
+        size: 215086
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADDC3F80E"'
+            version_id: '2023-05-01T11:54:49.2223502Z'
+      - relpath: REGION_4-22_0_1024_1024_2048.png
+        md5: 3050ba20e5858028005e38e3e4645819
+        size: 4133
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD41D298A"'
+            version_id: '2023-05-01T11:54:33.0296714Z'
+      - relpath: REGION_4-22_1024_2048_0_1024.jpg
+        md5: 0d83ae3f8c775a78d1dddcd810921cfb
+        size: 218313
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADEA758BF"'
+            version_id: '2023-05-01T11:54:50.7124927Z'
+      - relpath: REGION_4-22_1024_2048_0_1024.png
+        md5: 6381ca441f75c371eac4136bfe544fc6
+        size: 3111
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB76B561"'
+            version_id: '2023-05-01T11:54:45.3605729Z'
+      - relpath: REGION_4-22_1024_2048_1024_2048.jpg
+        md5: c8b9ef3c1af5ce6065517313d88de575
+        size: 214802
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADE2F061F"'
+            version_id: '2023-05-01T11:54:49.9239455Z'
+      - relpath: REGION_4-22_1024_2048_1024_2048.png
+        md5: f5cc93e80b331dbb2ca0b681733ddd81
+        size: 3612
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3814EA3"'
+            version_id: '2023-05-01T11:54:32.0092593Z'
+      - relpath: REGION_4-22_1024_2048_2048_3072.jpg
+        md5: adab3da1ec57f5629ebb8b827ffdadca
+        size: 213704
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE48E9F62"'
+            version_id: '2023-05-01T11:55:00.6167906Z'
+      - relpath: REGION_4-22_1024_2048_2048_3072.png
+        md5: d558f032b5ec5ee514454a041d3f3919
+        size: 4825
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3AFF8EE"'
+            version_id: '2023-05-01T11:54:32.3140846Z'
+      - relpath: REGION_4-22_1024_2048_2816_3840.jpg
+        md5: d447966acd4f41cf535cd834ed11af3b
+        size: 208588
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB439EF8"'
+            version_id: '2023-05-01T11:54:45.0257656Z'
+      - relpath: REGION_4-22_1024_2048_2816_3840.png
+        md5: 4df8e30b7b12c9059138538d461d7666
+        size: 2686
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3DF8D66"'
+            version_id: '2023-05-01T11:54:32.6259046Z'
+      - relpath: REGION_4-22_1136_2160_2048_3072.jpg
+        md5: 923e60b913002aea2f296f7e7f0c480b
+        size: 210555
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD57FFB2"'
+            version_id: '2023-05-01T11:54:48.5147570Z'
+      - relpath: REGION_4-22_1136_2160_2048_3072.png
+        md5: d119b9d6836b6d202c821a2bb8cb2b03
+        size: 4749
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD4874D6D"'
+            version_id: '2023-05-01T11:54:33.7252717Z'
+      - relpath: REGION_4-22_1136_2160_2816_3840.jpg
+        md5: 74bc087a380f07cf9d9bfbf71753bb85
+        size: 207357
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADBEA4DB1"'
+            version_id: '2023-05-01T11:54:46.1181361Z'
+      - relpath: REGION_4-22_1136_2160_2816_3840.png
+        md5: c2e073d30bf8c5d3a10c72046b1ed71b
+        size: 3054
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3834A34"'
+            version_id: '2023-05-01T11:54:32.0212532Z'
+      - relpath: REGION_5-21_0_1024_2048_3072.jpg
+        md5: e0fe75b1b16bce8a40eb0a94562b9b13
+        size: 170555
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD20A42B"'
+            version_id: '2023-05-01T11:54:48.1519659Z'
+      - relpath: REGION_5-21_0_1024_2048_3072.png
+        md5: cff27cd2b1e81e8be35faa360dd43430
+        size: 2032
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADB2A2743"'
+            version_id: '2023-05-01T11:54:44.8588611Z'
+      - relpath: REGION_5-21_1136_2160_0_1024.jpg
+        md5: b6d5a2ec87ec66be2024a00300cdc2d5
+        size: 176621
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADDC1D57B"'
+            version_id: '2023-05-01T11:54:49.2083579Z'
+      - relpath: REGION_5-21_1136_2160_0_1024.png
+        md5: 1d3e032d4220aca699d57e831c78cacf
+        size: 2678
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD40363D2"'
+            version_id: '2023-05-01T11:54:32.8607698Z'
+      - relpath: REGION_5-7_1024_2048_2048_3072.jpg
+        md5: d465716900e75d6656621c89c0404ef2
+        size: 143371
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADCC0DF14"'
+            version_id: '2023-05-01T11:54:47.5243284Z'
+      - relpath: REGION_5-7_1024_2048_2048_3072.png
+        md5: 6d758bddc06a621eca628560e2619624
+        size: 1903
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD40A1992"'
+            version_id: '2023-05-01T11:54:32.9047442Z'
+      - relpath: REGION_5-7_1136_2160_1024_2048.jpg
+        md5: 258ff383e3257e9765f1bf2bddad6787
+        size: 168211
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE493CEB9"'
+            version_id: '2023-05-01T11:55:00.6507705Z'
+      - relpath: REGION_5-7_1136_2160_1024_2048.png
+        md5: 4519c663db070844f50ba0c25bc92707
+        size: 2791
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3A795B2"'
+            version_id: '2023-05-01T11:54:32.2591154Z'
+      - relpath: REGION_5-7_1136_2160_2816_3840.jpg
+        md5: 626bc103252ee0d07b06a7892c9b5aa4
+        size: 169673
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADEB364DA"'
+            version_id: '2023-05-01T11:54:50.7914458Z'
+      - relpath: REGION_5-7_1136_2160_2816_3840.png
+        md5: 60307f5f7b67a515a88546455ac143bd
+        size: 2335
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD4AA87B3"'
+            version_id: '2023-05-01T11:54:33.9561395Z'
+      - relpath: REGION_6-13_0_1024_1024_2048.jpg
+        md5: bb16f42795ebea4975d56d1e4e847bdc
+        size: 206937
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADEB5FC90"'
+            version_id: '2023-05-01T11:54:50.8084368Z'
+      - relpath: REGION_6-13_0_1024_1024_2048.png
+        md5: 91d5aaa24436d9d4cf5bc24b3a4dfd78
+        size: 3048
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3814EA3"'
+            version_id: '2023-05-01T11:54:32.0082595Z'
+      - relpath: REGION_6-13_0_1024_2048_3072.jpg
+        md5: d827e7943701cb9ec519bf12dbccba51
+        size: 194342
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADE58F626"'
+            version_id: '2023-05-01T11:54:50.1987878Z'
+      - relpath: REGION_6-13_0_1024_2048_3072.png
+        md5: e8dd6280b504ed035fa5f46ab6bf5fc8
+        size: 3987
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3BCEF4A"'
+            version_id: '2023-05-01T11:54:32.3990346Z'
+      - relpath: REGION_6-13_1136_2160_2048_3072.jpg
+        md5: 1d1c7106bb835d704280e07bb543a8e2
+        size: 199667
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD35D6B9"'
+            version_id: '2023-05-01T11:54:48.2908857Z'
+      - relpath: REGION_6-13_1136_2160_2048_3072.png
+        md5: 254bdde598b42109d2b3a17ebe36d8a6
+        size: 2235
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD38286F6"'
+            version_id: '2023-05-01T11:54:32.0162550Z'
+      - relpath: REGION_6-18_0_1024_0_1024.jpg
+        md5: 8d54d4393ef2232b74867d9fff5b6682
+        size: 209428
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADDD55A9B"'
+            version_id: '2023-05-01T11:54:49.3362843Z'
+      - relpath: REGION_6-18_0_1024_0_1024.png
+        md5: efd077f2c4e1718ff41109fac87be60e
+        size: 3146
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD38915B3"'
+            version_id: '2023-05-01T11:54:32.0602301Z'
+      - relpath: REGION_6-18_0_1024_1024_2048.jpg
+        md5: 9a936002a8f77c7c74a3afe76a5bee31
+        size: 203279
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC2DB56B"'
+            version_id: '2023-05-01T11:54:46.5598827Z'
+      - relpath: REGION_6-18_0_1024_1024_2048.png
+        md5: a6a246685b1e1a477d0a6cb074e01e65
+        size: 2412
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3A6AB76"'
+            version_id: '2023-05-01T11:54:32.2531190Z'
+      - relpath: REGION_6-20_0_1024_2048_3072.jpg
+        md5: 5e7dfb2d9807858362c29e7c69d7d88b
+        size: 221638
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE674A3E6"'
+            version_id: '2023-05-01T11:55:03.8019558Z'
+      - relpath: REGION_6-20_0_1024_2048_3072.png
+        md5: 1f7685374f44528f6987f2adc127fde7
+        size: 2170
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD45AECC4"'
+            version_id: '2023-05-01T11:54:33.4344388Z'
+      - relpath: REGION_6-20_1024_2048_1024_2048.jpg
+        md5: 6b471c58a7d9577265f814da7351d42c
+        size: 217793
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AE149B3B2"'
+            version_id: '2023-05-01T11:54:55.1319474Z'
+      - relpath: REGION_6-20_1024_2048_1024_2048.png
+        md5: a6129fd542be03885fe67cf7bc6c11ac
+        size: 2674
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD403B1DC"'
+            version_id: '2023-05-01T11:54:32.8627676Z'
+      - relpath: REGION_6-4_0_1024_1024_2048.jpg
+        md5: 9e3091c576e3826e1931b3de798d6bcd
+        size: 188676
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC4690EB"'
+            version_id: '2023-05-01T11:54:46.7227883Z'
+      - relpath: REGION_6-4_0_1024_1024_2048.png
+        md5: 89318213e304588ae0e74c867c8cc27f
+        size: 3668
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD410A844"'
+            version_id: '2023-05-01T11:54:32.9477188Z'
+      - relpath: REGION_7-3_0_1024_2048_3072.jpg
+        md5: c4b3f583847403f5bb47a6ad72c1deac
+        size: 201988
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADE1E3FB6"'
+            version_id: '2023-05-01T11:54:49.8150085Z'
+      - relpath: REGION_7-3_0_1024_2048_3072.png
+        md5: 0d13d72c8c11643f1242f26ee5595edd
+        size: 3318
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD36E65AC"'
+            version_id: '2023-05-01T11:54:31.8843308Z'
+      - relpath: REGION_7-3_0_1024_2816_3840.jpg
+        md5: 7354f15ed32da16cf03c88d1afc5898a
+        size: 201290
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADEDD7BEB"'
+            version_id: '2023-05-01T11:54:51.0672875Z'
+      - relpath: REGION_7-3_0_1024_2816_3840.png
+        md5: b8d8e7ba333faed1dc247385d56aea40
+        size: 3962
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3885282"'
+            version_id: '2023-05-01T11:54:32.0542338Z'
+      - relpath: REGION_7-3_1024_2048_0_1024.jpg
+        md5: a907766d4eb1d7cc886341f18bccfff6
+        size: 208442
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADE7998B5"'
+            version_id: '2023-05-01T11:54:50.4136638Z'
+      - relpath: REGION_7-3_1024_2048_0_1024.png
+        md5: dc3cbd8c6bdb01f92231d32ddd698518
+        size: 2516
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3A72094"'
+            version_id: '2023-05-01T11:54:32.2561172Z'
+      - relpath: REGION_7-3_1024_2048_2048_3072.jpg
+        md5: 9d718f7c8e979feb644347e8ff4f3ad4
+        size: 206753
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD28E05A"'
+            version_id: '2023-05-01T11:54:48.2059354Z'
+      - relpath: REGION_7-3_1024_2048_2048_3072.png
+        md5: 36d2aaca679ed300a40af9434ad134ac
+        size: 3316
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD4C3B143"'
+            version_id: '2023-05-01T11:54:34.1210435Z'
+      - relpath: REGION_7-3_1136_2160_2048_3072.jpg
+        md5: 1d4875b9b25f9e180e27d0db7ee52c47
+        size: 204828
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADED7B06B"'
+            version_id: '2023-05-01T11:54:51.0293099Z'
+      - relpath: REGION_7-3_1136_2160_2048_3072.png
+        md5: ff4cbc05b2ec4f5b5c3a51d9345e7535
+        size: 3316
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD35AB98C"'
+            version_id: '2023-05-01T11:54:31.7554060Z'
+      - relpath: REGION_8-24_0_1024_1024_2048.jpg
+        md5: fcb935059c7f79f939b3bd9328803cf6
+        size: 179436
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC5B0053"'
+            version_id: '2023-05-01T11:54:46.8567123Z'
+      - relpath: REGION_8-24_0_1024_1024_2048.png
+        md5: 7f84cae8f2750e5a03e54f5e5c4fa094
+        size: 2967
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD484B5C0"'
+            version_id: '2023-05-01T11:54:33.7092807Z'
+      - relpath: REGION_8-24_0_1024_2816_3840.jpg
+        md5: c74cc1512a1fa33a868a5aa37a7bee1b
+        size: 195255
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADC20E60D"'
+            version_id: '2023-05-01T11:54:46.4759309Z'
+      - relpath: REGION_8-24_0_1024_2816_3840.png
+        md5: ec2d7a0cfaba42f07c691813fe7b18c9
+        size: 3181
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD48D8E11"'
+            version_id: '2023-05-01T11:54:33.7662481Z'
+      - relpath: REGION_8-24_1024_2048_1024_2048.jpg
+        md5: 55ed157372d2c97be65c1f9216b7dd62
+        size: 200407
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADF32E251"'
+            version_id: '2023-05-01T11:54:51.6269649Z'
+      - relpath: REGION_8-24_1024_2048_1024_2048.png
+        md5: e898d3a69b2d5eb1712b3f294cc2b8a0
+        size: 4428
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD3E9C517"'
+            version_id: '2023-05-01T11:54:32.6928663Z'
+      - relpath: REGION_8-24_1136_2160_2048_3072.jpg
+        md5: 5914e490f38a90ebc1b0603d9705497a
+        size: 206004
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3ADD58C2E1"'
+            version_id: '2023-05-01T11:54:48.5197537Z'
+      - relpath: REGION_8-24_1136_2160_2048_3072.png
+        md5: 5c0e978f2d6f74e4f38f1aa4bcb9a6d1
+        size: 3420
+        cloud:
+          v-clunacy:
+            etag: '"0x8DB4A3AD38656FA"'
+            version_id: '2023-05-01T11:54:32.0412410Z'
   train:
     cmd: python src/train.py
     deps:
     - path: data/train_data
-      md5: a14914527fa6a82f91911013614d4068.dir
-      size: 15530783
-      nfiles: 148
+      files:
+      - relpath: REGION_1-24_0_1024_0_1024.jpg
+        md5: dfeb4c398dd0a81afa3354183e39ba61
+      - relpath: REGION_1-24_0_1024_0_1024.png
+        md5: 5cc36d4649f6b8c9585fd0c1612967ca
+      - relpath: REGION_1-24_0_1024_1024_2048.jpg
+        md5: 371093d962f861498013dec0f9c14187
+      - relpath: REGION_1-24_0_1024_1024_2048.png
+        md5: 6d7bb56161dc79704c641eff91ce0a87
+      - relpath: REGION_1-24_0_1024_2048_3072.jpg
+        md5: eacfdb72cf95980723d1640fe127b41b
+      - relpath: REGION_1-24_0_1024_2048_3072.png
+        md5: f4bbfa88c7e66a826c0b8f52df8cb33e
+      - relpath: REGION_1-24_0_1024_2816_3840.jpg
+        md5: 3cde88bc92ce89a161dadaf75ad5fd69
+      - relpath: REGION_1-24_0_1024_2816_3840.png
+        md5: d3d0562dc1bac0cb983ea1c50252f544
+      - relpath: REGION_1-24_1024_2048_0_1024.jpg
+        md5: 894b81d3e754fecb61d09ef49a0b571e
+      - relpath: REGION_1-24_1024_2048_0_1024.png
+        md5: 11c5668be24af97dc8da9af67a7881df
+      - relpath: REGION_1-24_1024_2048_1024_2048.jpg
+        md5: adedc5d466e5556fcb64218ba4be57db
+      - relpath: REGION_1-24_1024_2048_1024_2048.png
+        md5: b3f40784e146c457057162873c66de80
+      - relpath: REGION_1-24_1024_2048_2048_3072.jpg
+        md5: 8df2f8b472a07dc0e21bf6cc2528b0f1
+      - relpath: REGION_1-24_1024_2048_2048_3072.png
+        md5: 46997823169c5bdbb3324b9a295cbaa2
+      - relpath: REGION_1-24_1024_2048_2816_3840.jpg
+        md5: 2f3cbdb91fea695465a46d46cc7a5b0c
+      - relpath: REGION_1-24_1024_2048_2816_3840.png
+        md5: f23047eca8a3ed278926e91eddbf2106
+      - relpath: REGION_1-24_1136_2160_1024_2048.jpg
+        md5: d1cb32d65bd8291445a14c3adb395273
+      - relpath: REGION_1-24_1136_2160_1024_2048.png
+        md5: 734d6d500903e0c7e2bf4f212953a51a
+      - relpath: REGION_1-24_1136_2160_2048_3072.jpg
+        md5: 2054ee6a97e6a84eebe37cd4d414b21b
+      - relpath: REGION_1-24_1136_2160_2048_3072.png
+        md5: 7027b138b724f974a2ebea6333f1f3e4
+      - relpath: REGION_1-24_1136_2160_2816_3840.jpg
+        md5: 2496e73d1169194c62de736ee12e1d95
+      - relpath: REGION_1-24_1136_2160_2816_3840.png
+        md5: 93fd6f18f465f0224056760ea1ac2342
+      - relpath: REGION_2-19_0_1024_0_1024.jpg
+        md5: 30073c07d42e2f649da49f5e071fff34
+      - relpath: REGION_2-19_0_1024_0_1024.png
+        md5: ca081022a5c15619cc31e927c0789b45
+      - relpath: REGION_2-19_1024_2048_0_1024.jpg
+        md5: e846b520cdf27bbf910c83816b3b40fb
+      - relpath: REGION_2-19_1024_2048_0_1024.png
+        md5: 59e5e42edb3af525de2642338540fc8d
+      - relpath: REGION_2-4_0_1024_2816_3840.jpg
+        md5: d5ed588650d01c8a751b5c6f8b6b933f
+      - relpath: REGION_2-4_0_1024_2816_3840.png
+        md5: dcec6307080a54cd871a41d2edf76800
+      - relpath: REGION_2-4_1024_2048_1024_2048.jpg
+        md5: 9a48b103fc1800f3ec15aa279082d533
+      - relpath: REGION_2-4_1024_2048_1024_2048.png
+        md5: 80345ef5dc200194481b30c9111d4ed8
+      - relpath: REGION_2-4_1024_2048_2048_3072.jpg
+        md5: 42fb3bbe6f5f822d1e9b7955a955ccc0
+      - relpath: REGION_2-4_1024_2048_2048_3072.png
+        md5: 6c50f52afc190f7c8b8f319a4e12e0a3
+      - relpath: REGION_2-4_1024_2048_2816_3840.jpg
+        md5: d2da96edca8cd2655df6b13808ca03cb
+      - relpath: REGION_2-4_1024_2048_2816_3840.png
+        md5: 95fd2d40ac85d956f03ae2b73b5836f7
+      - relpath: REGION_2-4_1136_2160_1024_2048.jpg
+        md5: 66db382f347524b17ba39c34b050eb2b
+      - relpath: REGION_2-4_1136_2160_1024_2048.png
+        md5: c1ff94cc7966f2feacd705e9d1ae2fa4
+      - relpath: REGION_2-4_1136_2160_2048_3072.jpg
+        md5: 41c079da7868f7615643a2fac3e6d5f8
+      - relpath: REGION_2-4_1136_2160_2048_3072.png
+        md5: 93506b33c92f5a4e4ee8f06107272fbe
+      - relpath: REGION_2-4_1136_2160_2816_3840.jpg
+        md5: c8689beb48ec8a5280f7b688b3de490e
+      - relpath: REGION_2-4_1136_2160_2816_3840.png
+        md5: 4a08111924c34ba7cb1b6bef6d8f47e6
+      - relpath: REGION_3-25_0_1024_0_1024.jpg
+        md5: 757d114c0bbe0c6ce7a66bd2594c67b1
+      - relpath: REGION_3-25_0_1024_0_1024.png
+        md5: d7d53c6a693fb4e3c8e9672119efe383
+      - relpath: REGION_3-25_0_1024_2048_3072.jpg
+        md5: c8d326176d79785df92749f90a97dd1a
+      - relpath: REGION_3-25_0_1024_2048_3072.png
+        md5: 0e599b2fe4a61f10e1909ba8d2c93863
+      - relpath: REGION_3-25_0_1024_2816_3840.jpg
+        md5: 6b34a51c37cdff8db262fc5afe85fed1
+      - relpath: REGION_3-25_0_1024_2816_3840.png
+        md5: 58928deabd60725fedfa237652b7d608
+      - relpath: REGION_3-25_1024_2048_0_1024.jpg
+        md5: 6b3bc4bddc7d11d1b6f5ef39505ded76
+      - relpath: REGION_3-25_1024_2048_0_1024.png
+        md5: 16040020241dbf81b53567048f8a251b
+      - relpath: REGION_3-25_1024_2048_1024_2048.jpg
+        md5: 6f9c052e8ab738982b94a2efbfe25813
+      - relpath: REGION_3-25_1024_2048_1024_2048.png
+        md5: da19cf27ce518b58cc141067e39c954c
+      - relpath: REGION_3-25_1136_2160_0_1024.jpg
+        md5: d77a97cab48ee7d62fc872feb728aca5
+      - relpath: REGION_3-25_1136_2160_0_1024.png
+        md5: b1f2fa292aae99016637aecddc9428a9
+      - relpath: REGION_3-25_1136_2160_1024_2048.jpg
+        md5: 483acc5991087fe02ebe066665b951a4
+      - relpath: REGION_3-25_1136_2160_1024_2048.png
+        md5: f72496b1e900ac80bc88854af5412120
+      - relpath: REGION_3-8_0_1024_2048_3072.jpg
+        md5: 9d9c362b001e5535ae7d7c6da512e11f
+      - relpath: REGION_3-8_0_1024_2048_3072.png
+        md5: 50ac1d68b3481328fecf8ead0febbd15
+      - relpath: REGION_3-8_1024_2048_0_1024.jpg
+        md5: 81760788d4db01859319af1ff84fd2fc
+      - relpath: REGION_3-8_1024_2048_0_1024.png
+        md5: 0197c72aa3d0c63058f2718eccc485d3
+      - relpath: REGION_3-8_1024_2048_1024_2048.jpg
+        md5: 20395b929e1e2172f8333498b53e3f86
+      - relpath: REGION_3-8_1024_2048_1024_2048.png
+        md5: 2965080de903d22763207c914042a4bf
+      - relpath: REGION_3-8_1024_2048_2048_3072.jpg
+        md5: e6db9147653afbf747d24958ce52050b
+      - relpath: REGION_3-8_1024_2048_2048_3072.png
+        md5: 87162cee482c3fa58811352862a49557
+      - relpath: REGION_3-8_1024_2048_2816_3840.jpg
+        md5: b1caa70ee2601c0aadc548c4cfd91359
+      - relpath: REGION_3-8_1024_2048_2816_3840.png
+        md5: bcfca6bf01a9903c12deaf7273548e22
+      - relpath: REGION_3-8_1136_2160_0_1024.jpg
+        md5: 572b91d817fb6d434a7d4f86fae4adef
+      - relpath: REGION_3-8_1136_2160_0_1024.png
+        md5: 451875a9b33cbcc918abf60d305db451
+      - relpath: REGION_3-8_1136_2160_2048_3072.jpg
+        md5: 352cce795ff75486dd7314b362f8c161
+      - relpath: REGION_3-8_1136_2160_2048_3072.png
+        md5: ef76ce102a9e2b28bf5a045a5b4c4989
+      - relpath: REGION_3-8_1136_2160_2816_3840.jpg
+        md5: b66667cd6b7bd2e2be70200838002a58
+      - relpath: REGION_3-8_1136_2160_2816_3840.png
+        md5: 3573dd09dd61f45fe56a01873e9bd097
+      - relpath: REGION_4-12_0_1024_1024_2048.jpg
+        md5: e1e869f6ab8c8c9a193e493c2c4fa82a
+      - relpath: REGION_4-12_0_1024_1024_2048.png
+        md5: 7d1cfc08e8b2c8cad943e5cb1441c6f1
+      - relpath: REGION_4-12_0_1024_2048_3072.jpg
+        md5: d5e2ce658cf28ecd7b7b56c05574b034
+      - relpath: REGION_4-12_0_1024_2048_3072.png
+        md5: e22949f5f1d0665e4b8721e6957fe7c5
+      - relpath: REGION_4-12_0_1024_2816_3840.jpg
+        md5: ec9955890a004f06e607d0c89e810ff1
+      - relpath: REGION_4-12_0_1024_2816_3840.png
+        md5: ee791a546a9389afca77bcd670ba8fcc
+      - relpath: REGION_4-12_1024_2048_0_1024.jpg
+        md5: 8c723910290a5c47eaa42e3023fe8e76
+      - relpath: REGION_4-12_1024_2048_0_1024.png
+        md5: 95da22c9982822d6cc770fadc4711fd9
+      - relpath: REGION_4-12_1024_2048_2048_3072.jpg
+        md5: 8c4b5126cfeba41c4da289fac1e1ae63
+      - relpath: REGION_4-12_1024_2048_2048_3072.png
+        md5: cfe31f3c74d92d76d020c18db909fad7
+      - relpath: REGION_4-12_1024_2048_2816_3840.jpg
+        md5: ebd6e0520f64758bdd5df80ddb371fc6
+      - relpath: REGION_4-12_1024_2048_2816_3840.png
+        md5: 0b1bd91a9a2118fad4e11f46e179d4a9
+      - relpath: REGION_4-12_1136_2160_0_1024.jpg
+        md5: 62707db1fef2768922c6016773f62324
+      - relpath: REGION_4-12_1136_2160_0_1024.png
+        md5: 5f26269d0faeb4fe0f4150400b7b791c
+      - relpath: REGION_4-12_1136_2160_1024_2048.jpg
+        md5: 1cb40143a7c246213f914970cf29c1fd
+      - relpath: REGION_4-12_1136_2160_1024_2048.png
+        md5: a65de737a789c9c053dfd3b54b75fee1
+      - relpath: REGION_4-12_1136_2160_2816_3840.jpg
+        md5: 2c5210c8f4210f102a2d8b1ab9b10377
+      - relpath: REGION_4-12_1136_2160_2816_3840.png
+        md5: 0189bb5f03aaa15ac6c9dd01e6bdf06b
+      - relpath: REGION_4-22_0_1024_0_1024.jpg
+        md5: af0d1ce02bd320673a8b120237f2e302
+      - relpath: REGION_4-22_0_1024_0_1024.png
+        md5: 2d3269226f749263f6d85b5b6373eedb
+      - relpath: REGION_4-22_0_1024_1024_2048.jpg
+        md5: 7a7f5adb55e071ac77b78a99f7ace606
+      - relpath: REGION_4-22_0_1024_1024_2048.png
+        md5: 3050ba20e5858028005e38e3e4645819
+      - relpath: REGION_4-22_1024_2048_0_1024.jpg
+        md5: 0d83ae3f8c775a78d1dddcd810921cfb
+      - relpath: REGION_4-22_1024_2048_0_1024.png
+        md5: 6381ca441f75c371eac4136bfe544fc6
+      - relpath: REGION_4-22_1024_2048_1024_2048.jpg
+        md5: c8b9ef3c1af5ce6065517313d88de575
+      - relpath: REGION_4-22_1024_2048_1024_2048.png
+        md5: f5cc93e80b331dbb2ca0b681733ddd81
+      - relpath: REGION_4-22_1024_2048_2048_3072.jpg
+        md5: adab3da1ec57f5629ebb8b827ffdadca
+      - relpath: REGION_4-22_1024_2048_2048_3072.png
+        md5: d558f032b5ec5ee514454a041d3f3919
+      - relpath: REGION_4-22_1024_2048_2816_3840.jpg
+        md5: d447966acd4f41cf535cd834ed11af3b
+      - relpath: REGION_4-22_1024_2048_2816_3840.png
+        md5: 4df8e30b7b12c9059138538d461d7666
+      - relpath: REGION_4-22_1136_2160_2048_3072.jpg
+        md5: 923e60b913002aea2f296f7e7f0c480b
+      - relpath: REGION_4-22_1136_2160_2048_3072.png
+        md5: d119b9d6836b6d202c821a2bb8cb2b03
+      - relpath: REGION_4-22_1136_2160_2816_3840.jpg
+        md5: 74bc087a380f07cf9d9bfbf71753bb85
+      - relpath: REGION_4-22_1136_2160_2816_3840.png
+        md5: c2e073d30bf8c5d3a10c72046b1ed71b
+      - relpath: REGION_5-21_0_1024_2048_3072.jpg
+        md5: e0fe75b1b16bce8a40eb0a94562b9b13
+      - relpath: REGION_5-21_0_1024_2048_3072.png
+        md5: cff27cd2b1e81e8be35faa360dd43430
+      - relpath: REGION_5-21_1136_2160_0_1024.jpg
+        md5: b6d5a2ec87ec66be2024a00300cdc2d5
+      - relpath: REGION_5-21_1136_2160_0_1024.png
+        md5: 1d3e032d4220aca699d57e831c78cacf
+      - relpath: REGION_5-7_1024_2048_2048_3072.jpg
+        md5: d465716900e75d6656621c89c0404ef2
+      - relpath: REGION_5-7_1024_2048_2048_3072.png
+        md5: 6d758bddc06a621eca628560e2619624
+      - relpath: REGION_5-7_1136_2160_1024_2048.jpg
+        md5: 258ff383e3257e9765f1bf2bddad6787
+      - relpath: REGION_5-7_1136_2160_1024_2048.png
+        md5: 4519c663db070844f50ba0c25bc92707
+      - relpath: REGION_5-7_1136_2160_2816_3840.jpg
+        md5: 626bc103252ee0d07b06a7892c9b5aa4
+      - relpath: REGION_5-7_1136_2160_2816_3840.png
+        md5: 60307f5f7b67a515a88546455ac143bd
+      - relpath: REGION_6-13_0_1024_1024_2048.jpg
+        md5: bb16f42795ebea4975d56d1e4e847bdc
+      - relpath: REGION_6-13_0_1024_1024_2048.png
+        md5: 91d5aaa24436d9d4cf5bc24b3a4dfd78
+      - relpath: REGION_6-13_0_1024_2048_3072.jpg
+        md5: d827e7943701cb9ec519bf12dbccba51
+      - relpath: REGION_6-13_0_1024_2048_3072.png
+        md5: e8dd6280b504ed035fa5f46ab6bf5fc8
+      - relpath: REGION_6-13_1136_2160_2048_3072.jpg
+        md5: 1d1c7106bb835d704280e07bb543a8e2
+      - relpath: REGION_6-13_1136_2160_2048_3072.png
+        md5: 254bdde598b42109d2b3a17ebe36d8a6
+      - relpath: REGION_6-18_0_1024_0_1024.jpg
+        md5: 8d54d4393ef2232b74867d9fff5b6682
+      - relpath: REGION_6-18_0_1024_0_1024.png
+        md5: efd077f2c4e1718ff41109fac87be60e
+      - relpath: REGION_6-18_0_1024_1024_2048.jpg
+        md5: 9a936002a8f77c7c74a3afe76a5bee31
+      - relpath: REGION_6-18_0_1024_1024_2048.png
+        md5: a6a246685b1e1a477d0a6cb074e01e65
+      - relpath: REGION_6-20_0_1024_2048_3072.jpg
+        md5: 5e7dfb2d9807858362c29e7c69d7d88b
+      - relpath: REGION_6-20_0_1024_2048_3072.png
+        md5: 1f7685374f44528f6987f2adc127fde7
+      - relpath: REGION_6-20_1024_2048_1024_2048.jpg
+        md5: 6b471c58a7d9577265f814da7351d42c
+      - relpath: REGION_6-20_1024_2048_1024_2048.png
+        md5: a6129fd542be03885fe67cf7bc6c11ac
+      - relpath: REGION_6-4_0_1024_1024_2048.jpg
+        md5: 9e3091c576e3826e1931b3de798d6bcd
+      - relpath: REGION_6-4_0_1024_1024_2048.png
+        md5: 89318213e304588ae0e74c867c8cc27f
+      - relpath: REGION_7-3_0_1024_2048_3072.jpg
+        md5: c4b3f583847403f5bb47a6ad72c1deac
+      - relpath: REGION_7-3_0_1024_2048_3072.png
+        md5: 0d13d72c8c11643f1242f26ee5595edd
+      - relpath: REGION_7-3_0_1024_2816_3840.jpg
+        md5: 7354f15ed32da16cf03c88d1afc5898a
+      - relpath: REGION_7-3_0_1024_2816_3840.png
+        md5: b8d8e7ba333faed1dc247385d56aea40
+      - relpath: REGION_7-3_1024_2048_0_1024.jpg
+        md5: a907766d4eb1d7cc886341f18bccfff6
+      - relpath: REGION_7-3_1024_2048_0_1024.png
+        md5: dc3cbd8c6bdb01f92231d32ddd698518
+      - relpath: REGION_7-3_1024_2048_2048_3072.jpg
+        md5: 9d718f7c8e979feb644347e8ff4f3ad4
+      - relpath: REGION_7-3_1024_2048_2048_3072.png
+        md5: 36d2aaca679ed300a40af9434ad134ac
+      - relpath: REGION_7-3_1136_2160_2048_3072.jpg
+        md5: 1d4875b9b25f9e180e27d0db7ee52c47
+      - relpath: REGION_7-3_1136_2160_2048_3072.png
+        md5: ff4cbc05b2ec4f5b5c3a51d9345e7535
+      - relpath: REGION_8-24_0_1024_1024_2048.jpg
+        md5: fcb935059c7f79f939b3bd9328803cf6
+      - relpath: REGION_8-24_0_1024_1024_2048.png
+        md5: 7f84cae8f2750e5a03e54f5e5c4fa094
+      - relpath: REGION_8-24_0_1024_2816_3840.jpg
+        md5: c74cc1512a1fa33a868a5aa37a7bee1b
+      - relpath: REGION_8-24_0_1024_2816_3840.png
+        md5: ec2d7a0cfaba42f07c691813fe7b18c9
+      - relpath: REGION_8-24_1024_2048_1024_2048.jpg
+        md5: 55ed157372d2c97be65c1f9216b7dd62
+      - relpath: REGION_8-24_1024_2048_1024_2048.png
+        md5: e898d3a69b2d5eb1712b3f294cc2b8a0
+      - relpath: REGION_8-24_1136_2160_2048_3072.jpg
+        md5: 5914e490f38a90ebc1b0603d9705497a
+      - relpath: REGION_8-24_1136_2160_2048_3072.png
+        md5: 5c0e978f2d6f74e4f38f1aa4bcb9a6d1
     - path: src/train.py
       md5: ef9d70ee318c6b345ba974af4d2af4e4
       size: 2088
@@ -51,6 +1979,10 @@ stages:
     - path: models/model.pkl
       md5: cf0c77f4d1a1b222e39f83908959449a
       size: 201335
+      cloud:
+        v-clunacy:
+          etag: '"0x8DB4A3AD31CA837"'
+          version_id: '2023-05-01T11:54:31.3486391Z'
   evaluate:
     cmd: python src/evaluate.py
     deps:
