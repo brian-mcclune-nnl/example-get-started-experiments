@@ -1,4 +1,6 @@
 dvc[s3]>=2.52.0
+dvc-azure
+git+https://github.com/fsspec/adlfs
 dvclive>=2.6.0
 fastai
 python-box
