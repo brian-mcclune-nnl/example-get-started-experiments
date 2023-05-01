@@ -2,3 +2,8 @@
     remote = storage
 ['remote "storage"']
     url = https://remote.dvc.org/get-started-pools
+['remote "v-clunacy"']
+    url = azure://dvc-pilot/get-started-pools-versioned
+    version_aware = true
+['remote "clunacy"']
+    url = azure://dvc-pilot/get-started-pools-unversioned
