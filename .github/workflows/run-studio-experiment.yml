@@ -1,5 +1,5 @@
 name: Run Studio Experiment
-on: 
+on:
   push:
     paths:
       - ".github/workflows/run-experiment.yaml"
@@ -22,11 +22,11 @@ jobs:
       - uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-region: us-east-2
-          role-to-assume: arn:aws:iam::342840881361:role/SandboxUser
-          role-duration-seconds: 43200
+          role-to-assume: arn:aws:iam::468728980601:role/testuser
+          role-duration-seconds: 3600
       - name: Create Runner
         env:
-          REPO_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cml runner launch --single \
             --labels=cml \
@@ -46,20 +46,20 @@ jobs:
       - uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-region: us-east-2
-          role-to-assume: arn:aws:iam::342840881361:role/SandboxUser
+          role-to-assume: arn:aws:iam::468728980601:role/testuser
           role-duration-seconds: 43200
       - name: training
         env:
-          REPO_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          STUDIO_TOKEN: ${{ secrets.STUDIO_TOKEN }}
-          STUDIO_REPO_URL: ${{ secrets.STUDIO_REPO_URL }}
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STUDIO_TOKEN: ${{ secrets.DVC_STUDIO_TOKEN }}
+          STUDIO_REPO_URL: ${{ secrets.DVC_STUDIO_REPO_URL }}
           DVCLIVE_LOGLEVEL: DEBUG
         run: |
           pip install -r requirements.txt
           dvc pull
           cml ci --fetch-depth 0
           cml comment create --publish --watch results/train/report.md & dvc exp run
-          dvc remote add --local push_remote s3://dvc-public/remote/get-started-pools 
+          dvc remote add --local push_remote s3://dvc-public/remote/get-started-pools
           dvc push -r push_remote
           cml pr --squash --skip-ci .
           cml comment create --pr --publish results/evaluate/report.md
