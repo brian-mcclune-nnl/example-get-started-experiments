@@ -33,7 +33,7 @@ jobs:
             --labels=cml \
             --cloud=aws \
             --cloud-region=us-east \
-            --cloud-type=ec2
+            --cloud-type=t2.micro
   runner-job:
     needs: deploy-runner
     runs-on: [ self-hosted, cml ]
